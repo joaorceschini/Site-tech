@@ -17,7 +17,6 @@ body {
 }
 
 .image {
-    animation: fadeIn 2s;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -34,7 +33,7 @@ body {
     margin: 0;
 }
 
-.banner li {
+.banner div {
     list-style: none;
     background-position: center;
     background-size: cover;
@@ -52,22 +51,26 @@ body {
 }
 
 .banner-hidden {
-    display: none;
+    display: block;
 }
 
 #banner-1 {
+    animation: fadeIn 1s;
     background-image: url(../images/ales-nesetril-734016-unsplash.jpg);
 }
 
 #banner-2 {
+    animation: fadeIn 1s;
     background-image: url(../images/jaz-king-221367-unsplash.jpg);
 }
 
 #banner-3 {
+    animation: fadeIn 1s;
     background-image: url(../images/alexandru-acea-729074-unsplash.jpg);
 }
 
 #banner-4 {
+    animation: fadeIn 1s;
     background-image: url(../images/mnz-1214783-unsplash.jpg);
 }
 
@@ -395,11 +398,12 @@ footer .menu a {
     text-align: center;
 }
 
-.iphoneXS-divimg {
+.iphoneXS-div-img {
     background-image: url(../images/mnz-1214783-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: static;
 }
 
 @media(max-width: 540px) {
