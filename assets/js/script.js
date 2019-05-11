@@ -2,7 +2,6 @@
 
 ////////////////////////////////////////////////////////////
 
-
 var count = 0;
 
 function change(){
@@ -15,9 +14,9 @@ function change(){
 
     if(b <= 0){
         b++
-        previous = document.querySelector(`#banner-4`);
+        previous = document.querySelector(`#banner-5`);
     }
-    if(count >= 4){
+    if(count >= 5){
         count = 0;
     }
 
@@ -39,13 +38,3 @@ document.addEventListener('copy', e => {
     alert("Lembre-se de usar os direitos autorais! ;)");
 
 })
-
-///////////////////////////////////////////////////////////////////////
-
-var objeto = document.querySelector('.image');
-
-objeto.addEventListener("click", e => {
-
-    objeto.style.opacity = 0;
-
-});

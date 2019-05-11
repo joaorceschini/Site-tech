@@ -55,7 +55,7 @@ body {
 }
 
 #banner-1 {
-    animation: fadeIn 1s;
+    animation: fadeIn 2s;
     background-image: url(../images/ales-nesetril-734016-unsplash.jpg);
 }
 
@@ -72,6 +72,11 @@ body {
 #banner-4 {
     animation: fadeIn 1s;
     background-image: url(../images/mnz-1214783-unsplash.jpg);
+}
+
+#banner-5 {
+    animation: fadeIn 1s;
+    background-image: url(../images/thomas-bjornstad-554926-unsplash.jpg);
 }
 
 header .bg-gradient {
